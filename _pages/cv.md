@@ -11,21 +11,19 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Computer Science, Virginia Tech, 2021 (expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
+* Summer 2020: Undergraduate Research Assistant
+  * Virginia Tech
   * Duties included: Tagging issues
-  * Supervisor: Professor Git
+  * Supervisor: Dr. Hoda Eldardiry
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Spring 2020: Undergraduate Research Assistant
+  * Virginia Tech
+  * Duties included: Tagging issues
+  * Supervisor: Dr. Yunhui Zhu
   
 Skills
 ======
