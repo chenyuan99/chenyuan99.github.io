@@ -15,6 +15,11 @@ Education
 Work experience
 ======
 * Summer 2020: Undergraduate Research Assistant
+  * Forkaia Corporation
+  * Duties included: Developed An Intelligent Resume Builder
+  * Supervisor: Ali Sina
+  
+* Summer 2020: Undergraduate Research Assistant
   * Virginia Tech
   * Duties included: Tagging issues
   * Supervisor: Dr. Hoda Eldardiry
@@ -26,7 +31,7 @@ Work experience
   
 Skills
 ======
-* Skill 1
+* Java, Python, C, R programming
 * Skill 2
   * Sub-skill 2.1
   * Sub-skill 2.2
@@ -53,7 +58,10 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Media director, International Student Association at Virginia Tech (2018.03 - 2020.05)
+* Webmaster, International Student Association at Virginia Tech (2017.08 - 2018.03)
+* Director, Model United Nations Club at Nanjing Senior High (2015.08 - 2016.07)
+* Co-Director, Waves Volunteer Team at Nanjing Senior High (2015.08 - 2016.07)
 
 
 For more info
