@@ -10,11 +10,12 @@ redirect_from:
 
 Education
 ======
-* B.S. in Computer Science, Virginia Tech, 2021 (expected)
+* MCS. in Computer Science, Rice University, 2022 (expected)
+* B.S. in Computer Science, Virginia Tech, 2021
 
 Work experience
 ======
-* Summer 2020: Undergraduate Research Assistant
+* Summer 2020: Software Engineer Intern
   * Forkaia Corporation
   * Duties included: Developed An Intelligent Resume Builder
   * Supervisor: Ali Sina
