@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Yuan Chen"
   avatar           : "profile.png"
-  bio              : "Virginia Tech | Computer Science Major| Business Minor"
-  location         : "Blacksburg, Virginia"
+  bio              : "Software Engineer | VT 21' | Rice 22'|"
+  location         : "Hanover, NJ"
   employer         :
 #   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=aJNZ1EYAAAAJ&hl=en"
-  email            :
+  email            : "chenyuansocial@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -103,7 +103,7 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+#  orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
