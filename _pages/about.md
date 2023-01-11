@@ -15,6 +15,11 @@ Education
 
 Work experience
 ======
+May 2022 - August 2022
+* Software Engineer -- Amazon Web Services
+  * Duties included: Developed An Intelligent Resume Builder
+  * Supervisor: Ali Sina
+  * 
 * Summer 2020: Software Engineer Intern
   * Forkaia Corporation
   * Duties included: Developed An Intelligent Resume Builder
