@@ -11,7 +11,7 @@ title                    : "Yuan Chen"
 title_separator          : "-"
 name                     : &name "Yuan Chen"
 description              : &description "personal description"
-url                      : https://chenyuan99.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://yuanchen.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "chenyuan99/chenyuan99.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Yuan Chen"
   avatar           : "profile.png"
-  bio              : "Virginia Tech Undergrad| Computer Science Major| Business Minor"
+  bio              : "Virginia Tech | Computer Science Major| Business Minor"
   location         : "Blacksburg, Virginia"
   employer         :
 #   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
