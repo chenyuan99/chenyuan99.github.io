@@ -83,8 +83,8 @@ author:
   name             : "Yuan Chen"
   avatar           : "profile.png"
   bio              : "Software Engineer | VT 21' | Rice 22'|"
-  location         : "Hanover, NJ"
-  employer         : “Barclays Investment Bank"
+  location         : "New York, NJ"
+  employer         :
 #   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=aJNZ1EYAAAAJ&hl=en"
   email            : "chenyuansocial@gmail.com"
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : “https://www.linkedin.com/in/chenyuan99/”
+  linkedin         : “chenyuan99”
   orcid            : "https://orcid.org/0000-0003-0228-4505"
   pinterest        :
   soundcloud       :
