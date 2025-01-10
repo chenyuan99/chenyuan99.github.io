@@ -10,7 +10,7 @@ redirect_from:
 
 Education
 ======
-* MCS. in Computer Science, Rice University, 2022 (expected)
+* MCS. in Computer Science, Rice University, 2022
 * B.S. in Computer Science, Virginia Tech, 2021
 
 Work experience
@@ -57,8 +57,3 @@ Service and leadership
 * Webmaster, International Student Association at Virginia Tech (2017.08 - 2018.03)
 * Director, Model United Nations Club at Nanjing Senior High (2015.08 - 2016.07)
 * Co-Director, Waves Volunteer Team at Nanjing Senior High (2015.08 - 2016.07)
-
-
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
