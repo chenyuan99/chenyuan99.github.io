@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio Image Generator</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f5f5f5;
+        }
+        .canvas-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        canvas {
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+        }
+        .controls {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 8px 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="canvas-container">
+        <h2>Portfolio Project Image Generator</h2>
+        <canvas id="canvas" width="500" height="300"></canvas>
+        <div class="controls">
+            <div>
+                <label for="projectName">Project Name:</label>
+                <input type="text" id="projectName" value="Project Name">
+            </div>
+            <div>
+                <label for="bgColor">Background Color:</label>
+                <input type="color" id="bgColor" value="#3498db">
+            </div>
+            <div>
+                <label for="textColor">Text Color:</label>
+                <input type="color" id="textColor" value="#ffffff">
+            </div>
+        </div>
+        <button id="generate">Generate Image</button>
+        <button id="download">Download Image</button>
+        <p>Use this tool to create placeholder images for your portfolio projects.</p>
+    </div>
+
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        const projectNameInput = document.getElementById('projectName');
+        const bgColorInput = document.getElementById('bgColor');
+        const textColorInput = document.getElementById('textColor');
+        const generateBtn = document.getElementById('generate');
+        const downloadBtn = document.getElementById('download');
+
+        function drawImage() {
+            const projectName = projectNameInput.value;
+            const bgColor = bgColorInput.value;
+            const textColor = textColorInput.value;
+            
+            // Clear canvas
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            // Draw background
+            ctx.fillStyle = bgColor;
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            
+            // Draw project name
+            ctx.fillStyle = textColor;
+            ctx.font = 'bold 28px Arial';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText(projectName, canvas.width / 2, canvas.height / 2 - 20);
+            
+            // Draw GitHub icon placeholder
+            ctx.font = '16px Arial';
+            ctx.fillText('GitHub Project', canvas.width / 2, canvas.height / 2 + 20);
+            
+            // Draw decorative elements
+            ctx.strokeStyle = textColor;
+            ctx.lineWidth = 3;
+            ctx.beginPath();
+            ctx.moveTo(100, 50);
+            ctx.lineTo(400, 50);
+            ctx.stroke();
+            
+            ctx.beginPath();
+            ctx.moveTo(100, 250);
+            ctx.lineTo(400, 250);
+            ctx.stroke();
+        }
+
+        generateBtn.addEventListener('click', drawImage);
+        
+        downloadBtn.addEventListener('click', function() {
+            const projectName = projectNameInput.value.toLowerCase().replace(/\s+/g, '-');
+            const link = document.createElement('a');
+            link.download = `${projectName}.png`;
+            link.href = canvas.toDataURL('image/png');
+            link.click();
+        });
+        
+        // Initial draw
+        drawImage();
+    </script>
+</body>
+</html>
