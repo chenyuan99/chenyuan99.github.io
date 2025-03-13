@@ -25,11 +25,18 @@ redirect_from:
 ## Tips and hints
 
 * Name a file ".md" to have it render in markdown, name it ".html" to render in HTML.
-* Go to the [commit list](https://github.com/academicpages/academicpages.github.io/commits/master) (on your repo) to find the last version Github built with Jekyll. 
+* Go to the [commit list](https://github.com/academicpages/academicpages.github.io/commits/master) (on your repo) to find the last version GitHub built with Jekyll. 
   * Green check: successful build
   * Orange circle: building
   * Red X: error
   * No icon: not built
+
+* Academic Pages uses [Jekyll Kramdown](https://jekyllrb.com/docs/configuration/markdown/), GitHub Flavored Markdown (GFM) parser, which is similar to the version of Markdown used on GitHub, but may have some minor differences. 
+  * Some of emoji supported on GitHub should be supposed via the [Jemoji](https://github.com/jekyll/jemoji) plugin :computer:.
+  * The best list of the supported emoji can be found in the [Emojis for Jekyll via Jemoji](https://www.fabriziomusacchio.com/blog/2021-08-16-emojis_for_Jekyll/#computer) blog post.
+
+* While GitHub Pages prevents server side code from running, client-side scripts are supported.
+  * This means that Google Analytics is supported, and [the wiki](https://github.com/academicpages/academicpages.github.io/wiki/Adding-Google-Analytics) should contain the most up-to-date information on getting it working.
 
 ## Resources
  * [Liquid syntax guide](https://shopify.github.io/liquid/tags/control-flow/)
@@ -179,7 +186,7 @@ This is the regular text.[^1] This is more regular text.[^note]
 
 ### Anchor Tag (aka. Link)
 
-This is an example of a [link](http://github.com "Github").
+This is an example of a [link](http://github.com "GitHub").
 
 ### Abbreviation Tag
 
@@ -207,9 +214,31 @@ or R:
 print("Hello World!", quote = FALSE)
 ```
 
-### Strike Tag
+### Details Tag (collapsible sections)
 
-This tag will let you <strike>strikeout text</strike>.
+The HTML `<details>` tag works well with Markdown and allows you to include collapsible sections, see [W3Schools](https://www.w3schools.com/tags/tag_details.asp) for more information on how to use the tag.
+
+<details>
+  <summary>Collapsed by default</summary>
+  This section was collapsed by default!
+</details>
+
+The source code:
+
+```HTML
+<details>
+  <summary>Collapsed by default</summary>
+  This section was collapsed by default!
+</details>
+```
+
+Or, you can leave a section open by default by including the `open` attribute in the tag:
+
+<details open>
+  <summary>Open by default</summary>
+  This section is open by default thanks to open in the &lt;details open&gt; tag!
+</details>
+
 
 ### Emphasize Tag
 
@@ -240,6 +269,10 @@ This tag styles large blocks of code.
 ### Quote Tag
 
 <q>Developers, developers, developers&#8230;</q> &#8211;Steve Ballmer
+
+### Strike Tag
+
+This tag will let you <strike>strikeout text</strike>.
 
 ### Strong Tag
 
