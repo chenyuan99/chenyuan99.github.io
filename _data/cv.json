@@ -1,10 +1,10 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Yuan Chen",
+    "email": "",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://yuanchen.io",
+    "summary": "Currently employed at Barclays Investment Bank. Short biography for the left-hand sidebar",
     "location": {
       "address": "",
       "postalCode": "",
@@ -25,37 +25,28 @@
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "chenyuan99",
+        "url": "https://github.com/chenyuan99"
       }
     ]
   },
   "work": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
+      "institution": "Rice University",
+      "area": "M.S. in Computer Science",
       "studyType": "",
       "startDate": "",
-      "endDate": "2018",
+      "endDate": "2022",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
+      "institution": "Virginia Tech",
+      "area": "B.S. in Computer Science",
       "studyType": "",
       "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "endDate": "2021",
       "gpa": null,
       "courses": []
     }
@@ -126,9 +117,9 @@
   ],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
+      "course": "Intermediate Software Engineering",
+      "institution": "Virginia Tech, Computer Science",
+      "date": "2021-01-01",
       "role": "Undergraduate course",
       "description": ""
     },
@@ -142,11 +133,60 @@
   ],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
+      "name": "BenchmarkLLM",
       "category": "portfolio",
       "date": "",
       "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "description": "A project for benchmarking and evaluating Large Language Models<br/><img src='/images/benchmarkllm.png'>"
+    },
+    {
+      "name": "Card Art Studio",
+      "category": "portfolio",
+      "date": "",
+      "url": "",
+      "description": "A creative tool for generating and customizing digital card art<br/><img src='/images/card-art.png'>"
+    },
+    {
+      "name": "openPark - Parking Spot Detection",
+      "category": "portfolio",
+      "date": "",
+      "url": "",
+      "description": "Open Source Parking Spot Detection using satellite/drone vision data<br/><img src='/images/openpark.png'>"
+    },
+    {
+      "name": "OpenRisk - Automated Risk Management",
+      "category": "portfolio",
+      "date": "",
+      "url": "",
+      "description": "Automate Risk Office with AI<br/><img src='/images/openrisk.png'>"
+    },
+    {
+      "name": "OwlSavesCats - HackRice11 Project",
+      "category": "portfolio",
+      "date": "",
+      "url": "",
+      "description": "A project developed during HackRice11 hackathon<br/><img src='/images/owlsavescats.png'>"
+    },
+    {
+      "name": "PaperHub - Research in the AI Era",
+      "category": "portfolio",
+      "date": "",
+      "url": "",
+      "description": "ResearchGate in AI era - A platform for AI-enhanced academic research<br/><img src='/images/paperhub.png'>"
+    },
+    {
+      "name": "Petti.vip - Pet Food Recommendation",
+      "category": "portfolio",
+      "date": "",
+      "url": "",
+      "description": "A Web App to recommend possible food packages for pets based on user uploaded images using Machine Learning Algorithms<br/><img src='/images/petti.png'>"
+    },
+    {
+      "name": "PolyPredict",
+      "category": "portfolio",
+      "date": "",
+      "url": "",
+      "description": "A TypeScript-based prediction application created with StackBlitz<br/><img src='/images/polypredict.png'>"
     }
   ]
 }
