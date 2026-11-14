@@ -21,12 +21,14 @@ jobs:
       - name: Include the prebuilt StageLight site
         run: |
           test -s _site/index.html
-          rsync -a --delete StageLight/ _site/StageLight/
-          test -s _site/StageLight/index.html
-          test -d _site/StageLight/_next/static/chunks
+          mkdir publish
+          rsync -r --exclude=/StageLight/ _site/ publish/
+          cp -R StageLight publish/
+          test -s publish/StageLight/index.html
+          test -d publish/StageLight/_next/static/chunks
       - uses: actions/upload-pages-artifact@v5
         with:
-          path: _site
+          path: publish
   deploy:
     needs: build
     runs-on: ubuntu-latest
