@@ -154,6 +154,7 @@ analytics:
 
 # Reading Files
 include:
+  - StageLight/_next
   - .htaccess
   - _pages
   - files
